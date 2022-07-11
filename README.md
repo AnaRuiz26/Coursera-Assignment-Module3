@@ -1,5 +1,5 @@
 # Coursera-Assignment-Module3
-My Link: https://anaruiz26.github.io/Coursera-Assignment-Module3/
+My Link: https://anaruiz26.github.io/Coursera-Assignment-Module3/ <br>
 Coursera course: HTML, CSS, and Javascript for Web Developers
 
 Woo-hoo! MORE CODING!!! Exciting! :-)
