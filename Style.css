@@ -80,7 +80,7 @@ span {
   padding-bottom: 20px;
 }
 .navbar-brand h1 { /* Food, LLC */
-  font-family: 'Lora', serif; 
+  font-family: 'Oxygen', sans-serif; 
   color: black;
   font-size: 1.8em;
   font-weight: bold;
@@ -103,11 +103,11 @@ span {
   margin-top: 10px;
 }
 #nav-list a { 
-  color: rgb(0,0,0);
+  color: #000000;
   font-weight: bold;
   text-align: center;
   border: 1px solid black;
-  background-color: teal;
+  background-color: #329876;
 }
 #nav-list a:hover { 
   background: #E7E7E7;
