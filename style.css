@@ -2,7 +2,7 @@ body {
   font-size: 16px;
   color: #D8EEE8;
   background-color: #7FB7A9;
-  font-family: 'Oxygen', sans-serif;
+  font-family: Georgia sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -17,156 +17,127 @@ h1 {
 }
 
 p {
-  padding: 15px 25px 0px 25px;
+  padding: 10px;
+  margin:0;
   font-family: Georgia sans-serif;
   font-size: 16px;
   position: relative;
   color: #D8EEE8;
 }
 
-.section { 
+section { 
   background-color: #5CBA8E;
-    border: 2px solid black;
-    margin-top: 20px; 
-    margin-left: 30px;
-    margin-right: 0px; 
-    padding: 3px;
-    text-align: justify;
-    position: relative;
+  border: 2px solid black;
+  width: 100%;
+  height:auto;
+  color: black;
+  position: relative;
+  overflow: auto; 
  }
 
-span {
-  font-size: 20px;
-  width: 100%;
-  font-weight: bold;
+.containter{
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+#chicken {
+  border: 2px solid black;
   text-align: center;
-}
-
-#nr1  {
-  color: black;
-  width: 100%;
-  font-size: 20px;
+  width: 30%;
+  margin-left: 70%;
+  font-family:Georgia sans-serif;
   font-weight: bold;
-  text-align: center;
-}
-#nr2 {
-  color: black;
-  width: 100%;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}
-#nr3 {
-  color: black;
-  width: 100%;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.row {
-  width: 100%;
-}
-/* HEADER */
-#header-nav {
-  background-color: #7D807F;
-  border-radius: 0;
-  border: 0;
-  overflow: hidden;
-}
-
-.navbar-brand {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.navbar-brand h1 { /* Food, LLC */
-  font-family: 'Oxygen', sans-serif; 
-  color: black;
-  font-size: 1.8em;
-  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
   margin-top: 0;
-  margin-bottom: 20px;
-  
+  padding: 5px;
+  background-color: #77E12E;
+
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
-}
-.navbar-brand h2 { /* Our Menu */
-  color: #000;
-  font-weight: bold;
-  font-size: .7em;
+#beef{
+  border: 2px solid black;
   text-align: center;
-  margin-top: 15px;
+  width: 30%;
+  margin-left: 70%;
+  font-family:Georgia sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #E25626;
 }
 
-#nav-list {  
+#sushi{
+  border: 2px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family:Georgia sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #EBEE1E;
+}
+#chicken-div{
+  margin-bottom: 10px;
   margin-top: 10px;
 }
-#nav-list a { 
-  color: #000000;
-  font-weight: bold;
-  text-align: center;
-  border: 1px solid black;
-  background-color: #329876;
-}
-#nav-list a:hover { 
-  background: #E7E7E7;
-}
-#nav-list a span { 
-  font-size: 1.2em;
+
+#beef-div{
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-p .text-center {
-  margin-top: 30px;
+#sushi-div{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.navbar-brand{
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: black;
+}
+
+#header-nav{
+  border: 0;
+  background-color: #9E9E8F;
+  color: black;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid rgb(15,200,90);
+  border: 2px solid black;
 }
+
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -30px; 
-}
-/* END HEADER */
+  margin-top: -30px;
 
-@media (min-width: 1200px) {
-#header-nav {
-  height: 70px;
 }
-.navbar-brand {
-    padding-top: 10px;
-    height: 70px;
-    border-bottom: 20px;
-    } 
+.nav-header{
+  background: #6B6B66;
 }
-@media (min-width: 992px) and (max-width: 1199px) {
-#header-nav {
-    padding-top: 10px;
-    height: 70px; 
-    }  
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  #header-nav {
-    padding-top: 10px;
-    height: 70px; 
-    }
-  }
-  }
-/********** Extra small devices only **********/
 
-@media (max-width: 767px) {
-  /* Header */
-  .navbar-brand {
-    padding-top: 10px;
-    height: 70px;
-  }
-
-  .navbar-brand h1 { /* Company's name */
-    padding-top: 10px;
-  }
-
-  #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
-  }
+.nav-brand {
+  color: black;
+  font-size: 1.5em;
 }
-/* End Header */
+
+#nav-list {
+  border-color: black;
+}
+
+hr {
+  border-color: white;
+}
+
+.item {
+  color: white;
+  font-size: 1.2em;
+}
